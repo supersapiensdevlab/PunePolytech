@@ -1,0 +1,41 @@
+.bg-usp{
+    background-image: url("./assets/imgs/usp-background.svg");
+    background-position: 0 100%;
+    background-size: cover;
+}
+
+.bg-about-head{
+    background-image: url("./assets/imgs/aboutpage-hero.svg");
+    background-position: 0 100%;
+    background-size: cover;
+}
+
+.bg-tech-head{
+    background-image: url("./assets/imgs/techpage-hero.svg");
+    background-position: 0 100%;
+    background-size: cover;
+}
+
+.bg-product-head{
+    background-image: url("./assets/imgs/products-hero.svg");
+    background-position: 0 100%;
+    background-size: cover;
+}
+
+.bg-contact-head{
+    background-image: url("./assets/imgs/contact-hero.svg");
+    background-position: 0 100%;
+    background-size: cover;
+}
+
+.bg-career-head{
+    background-image: url("./assets/imgs/careers-hero.svg");
+    background-position: 0 100%;
+    background-size: cover;
+}
+
+.bg-about-vision{
+    background-image: url("./assets/imgs/bg-vision.svg");
+    background-position: 0 100%;
+    background-size: cover;
+}
