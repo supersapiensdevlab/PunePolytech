@@ -3,10 +3,10 @@ import React from "react";
 const Careers = () => {
   return (
     <div className="w-full">
-      <div className="bg-career-head w-full h-[277px] relative">
-        <div className="text-white text-5xl font-semibold absolute bottom-14 left-60">
+      <div className="bg-career-head w-full 2xl:h-[277px] h-[109px] relative">
+        <div className="text-white 2xl:text-5xl text-2xl font-semibold absolute 2xl:bottom-14 2xl:left-60 bottom-4 left-14">
           Careers
-          <p className="text-sm">
+          <p className="2xl:text-sm text-xs">
             You can contact us on{" "}
             <span className="bg-white px-1 rounded-md text-para ml-1">
               sales@punepolytech.com
@@ -14,24 +14,30 @@ const Careers = () => {
           </p>
         </div>
       </div>
-      <div className="w-full flex flex-col justify-center items-center space-y-7 mt-24">
-        <div className="w-2/3 rounded-lg  shadow-md shadow-lightgray border border-gray h-36 px-10 flex flex-col justify-center space-y-3">
-          <p className="text-3xl text-primaryLight font-semibold">
+      <div className="w-full flex flex-col justify-center items-center 2xl:space-y-7 space-y-3 2xl:mt-24 mt-8">
+        <div className="2xl:w-2/3 w-11/12 rounded-lg  shadow-md shadow-lightgray border border-gray h-24 2xl:h-36 2xl:px-10 px-5 flex flex-col justify-center space-y-3">
+          <p className="2xl:text-3xl text-lg text-primaryLight font-semibold">
             Graphic Designer
           </p>
-          <p className="text-md text-para">Min. 2-5 years Experience</p>
+          <p className="2xl:text-md text-sm text-para">
+            Min. 2-5 years Experience
+          </p>
         </div>
-        <div className="w-2/3 rounded-lg  shadow-md shadow-lightgray border border-gray h-36 px-10 flex flex-col justify-center space-y-3">
-          <p className="text-3xl text-primaryLight font-semibold">
+        <div className="2xl:w-2/3 w-11/12 rounded-lg  shadow-md shadow-lightgray border border-gray h-24 2xl:h-36 2xl:px-10 px-5 flex flex-col justify-center space-y-3">
+          <p className="2xl:text-3xl text-lg text-primaryLight font-semibold">
             Sales Manager
           </p>
-          <p className="text-md text-para">Min. 2-5 years Experience</p>
+          <p className="2xl:text-md text-sm text-para">
+            Min. 2-5 years Experience
+          </p>
         </div>
-        <div className="w-2/3 rounded-lg  shadow-md shadow-lightgray border border-gray h-36 px-10 flex flex-col justify-center space-y-3">
-          <p className="text-3xl text-primaryLight font-semibold">
+        <div className="2xl:w-2/3 w-11/12 rounded-lg  shadow-md shadow-lightgray border border-gray h-24 2xl:h-36 2xl:px-10 px-5 flex flex-col justify-center space-y-3">
+          <p className="2xl:text-3xl text-lg text-primaryLight font-semibold">
             System Engineer
           </p>
-          <p className="text-md text-para">Min. 2-5 years Experience</p>
+          <p className="2xl:text-md text-sm text-para">
+            Min. 2-5 years Experience
+          </p>
         </div>
       </div>
     </div>

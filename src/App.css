@@ -1,3 +1,15 @@
+.bg-hero-head{
+    background-image: url("./assets/imgs/hero-background.svg");
+    background-position: 0 100%;
+    background-size: cover;
+}
+
+.bg-hero-head-sm{
+    background-image: url("./assets/imgs/home-bg-sm.svg");
+    background-position: 0 100%;
+    background-size: cover;
+}
+
 .bg-usp{
     background-image: url("./assets/imgs/usp-background.svg");
     background-position: 0 100%;
@@ -39,3 +51,39 @@
     background-position: 0 100%;
     background-size: cover;
 }
+
+@media screen and (max-width: 768px) {
+    .splide{
+        padding: 3rem 0 !important;
+    }
+
+    .bg-about-head{
+        background-image: url("./assets/imgs/bg-about-head-sm.svg");
+        background-position: 100% 100%;
+    }
+
+    .bg-about-vision{
+        background-image: url("./assets/imgs/bg-vision-sm.svg");
+        background-position: 100% 100%;
+    }
+
+    .bg-tech-head{
+        background-image: url("./assets/imgs/bg-about-head-sm.svg");
+        background-position: 50% 100%;
+    }
+
+    .bg-product-head{
+        background-image: url("./assets/imgs/bg-products-sm.svg");
+        background-position: 50% 100%;
+    }
+
+    .bg-contact-head{
+        background-image: url("./assets/imgs/bg-contact-sm.svg");
+        background-position: 50% 100%;
+    }
+
+    .bg-career-head{
+        background-image: url("./assets/imgs/bg-career-sm.svg");
+        background-position: 50% 100%;
+    }
+  }

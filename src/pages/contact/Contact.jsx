@@ -6,13 +6,13 @@ import email from "../../assets/imgs/email-purple.svg";
 const Contact = () => {
   return (
     <div className="w-full">
-      <div className="bg-contact-head w-full h-[277px] relative">
-        <div className="text-white text-5xl font-semibold absolute bottom-14 left-60">
+      <div className="bg-contact-head w-full lg:h-[277px] h-[109px] relative">
+        <div className="text-white lg:text-5xl text-2xl font-semibold absolute lg:bottom-14 lg:left-60 bottom-4 left-14">
           Contact Us
         </div>
       </div>
-      <div className="w-full flex justify-center items-center space-x-10 mt-20">
-        <div className="h-80 bg-primaryLight w-[30rem] rounded-md flex flex-col space-y-4 p-7">
+      <div className="w-full flex lg:flex-row flex-col justify-center items-center lg:space-x-10 space-x-0 space-y-5 lg:space-y-0 lg:mt-20 mt-10 p-5 lg:p-0">
+        <div className="h-80 bg-primaryLight lg:w-[30rem] w-full rounded-md flex flex-col space-y-4 lg:p-7 p-5">
           <p className="text-2xl text-secondary font-semibold">
             Pune Polytech Pvt. Ltd
           </p>
@@ -37,7 +37,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="h-80  w-[30rem] flex flex-col space-y-4">
+        <div className="h-80  lg:w-[30rem] w-full flex flex-col space-y-4">
           <input
             type="text"
             className="w-full h-14 rounded-lg bg-tertiary p-3 "
@@ -53,7 +53,7 @@ const Contact = () => {
             className="w-full h-1/2 rounded-lg bg-tertiary p-3  "
             placeholder="Your message"
           />
-          <div className="bg-primaryLight h-12 w-36 text-white flex justify-center items-center rounded-lg">
+          <div className="bg-primaryLight h-12 w-36 text-white flex justify-center items-center rounded-lg self-center lg:self-start">
             Send message
           </div>
         </div>
