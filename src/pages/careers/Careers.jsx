@@ -15,7 +15,7 @@ const Careers = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items-center lg:space-y-7 space-y-3 lg:mt-24 mt-8">
-        <div className="2xl:w-2/3 lg:w-5/6 w-11/12 rounded-lg  shadow-md shadow-lightgray border border-gray h-24 2xl:h-36 lg:h-32 2xl:px-10 lg:px-7 px-5 flex flex-col justify-center space-y-3">
+        <div className="2xl:w-2/3 lg:w-5/6 w-11/12 rounded-lg  shadow-md shadow-lightgray border border-gray h-24 2xl:h-32 lg:h-28 2xl:px-10 lg:px-7 px-5 flex flex-col justify-center space-y-3">
           <p className="2xl:text-3xl lg:text-2xl text-lg text-primaryLight font-semibold">
             Graphic Designer
           </p>
@@ -23,7 +23,7 @@ const Careers = () => {
             Min. 2-5 years Experience
           </p>
         </div>
-        <div className="2xl:w-2/3 lg:w-5/6 w-11/12 rounded-lg  shadow-md shadow-lightgray border border-gray h-24 2xl:h-36 lg:h-32 2xl:px-10 lg:px-7 px-5 flex flex-col justify-center space-y-3">
+        <div className="2xl:w-2/3 lg:w-5/6 w-11/12 rounded-lg  shadow-md shadow-lightgray border border-gray h-24 2xl:h-32 lg:h-28 2xl:px-10 lg:px-7 px-5 flex flex-col justify-center space-y-3">
           <p className="2xl:text-3xl lg:text-2xl text-lg text-primaryLight font-semibold">
             Sales Manager
           </p>
@@ -31,7 +31,7 @@ const Careers = () => {
             Min. 2-5 years Experience
           </p>
         </div>
-        <div className="2xl:w-2/3 lg:w-5/6 w-11/12 rounded-lg  shadow-md shadow-lightgray border border-gray h-24 2xl:h-36 lg:h-32 2xl:px-10 lg:px-7 px-5 flex flex-col justify-center space-y-3">
+        <div className="2xl:w-2/3 lg:w-5/6 w-11/12 rounded-lg  shadow-md shadow-lightgray border border-gray h-24 2xl:h-32 lg:h-28 2xl:px-10 lg:px-7 px-5 flex flex-col justify-center space-y-3">
           <p className="2xl:text-3xl lg:text-2xl text-lg text-primaryLight font-semibold">
             System Engineer
           </p>

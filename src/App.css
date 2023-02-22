@@ -58,7 +58,7 @@ body{
 }
 
 .bg-about-vision{
-    background-image: url("./assets/imgs/bg-vision.svg");
+    background-image: url("./assets/imgs/bg-vision2.svg");
     background-position: 0 100%;
     background-size: cover;
 }
@@ -74,8 +74,8 @@ body{
     }
 
     .bg-about-vision{
-        background-image: url("./assets/imgs/bg-vision-sm.svg");
-        background-position: 100% 100%;
+        background-image: url("./assets/imgs/bg-vision2.svg");
+        background-position: 50% 100%;
     }
 
     .bg-tech-head{

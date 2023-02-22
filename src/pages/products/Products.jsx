@@ -7,7 +7,7 @@ import product5 from "../../assets/imgs/product5.svg";
 import product6 from "../../assets/imgs/product6.svg";
 import product7 from "../../assets/imgs/product7.svg";
 import product8 from "../../assets/imgs/product8.svg";
-import product9 from "../../assets/imgs/product9.svg";
+// import product9 from "../../assets/imgs/product9.svg";
 import product10 from "../../assets/imgs/product10.svg";
 import product11 from "../../assets/imgs/product11.svg";
 import product12 from "../../assets/imgs/product12.svg";
@@ -74,79 +74,79 @@ const Products = () => {
       </div>
       <div className="w-full lg:mb-28 mb-14 lg:mt-14 mt-10 flex justify-center">
         {selected === 0 ? (
-          <div className="w-max grid grid-cols-4 gap-2 lg:gap-5 lg:gap-y-14 gap-y-10 place-items-center">
-            <div className="lg:h-72 h-24 md:h-36 w-max flex flex-col items-center space-y-2">
+          <div className="w-max grid md:grid-cols-4 grid-cols-3 gap-2 lg:gap-5 lg:gap-y-14 gap-y-10 place-items-center">
+            <div className="lg:h-72 h-32 md:h-36 w-max flex flex-col  space-y-2">
               <img src={product1} className="h-full w-auto" alt=""></img>
               <p className=" text-xs lg:text-lg">Lorem Ipsum</p>
             </div>
-            <div className="lg:h-72 h-24 md:h-36 w-max flex flex-col items-center space-y-2">
+            <div className="lg:h-72 h-32 md:h-36 w-max flex flex-col space-y-2">
               <img src={product2} className="h-full w-auto" alt=""></img>
               <p className=" text-xs lg:text-lg">Lorem Ipsum</p>
             </div>
-            <div className="lg:h-72 h-24 md:h-36 w-max flex flex-col items-center space-y-2">
+            <div className="lg:h-72 h-32 md:h-36 w-max flex flex-col space-y-2">
               <img src={product3} className="h-full w-auto" alt=""></img>
               <p className=" text-xs lg:text-lg">Lorem Ipsum</p>
             </div>
-            <div className="lg:h-72 h-24 md:h-36 w-max flex flex-col items-center space-y-2">
+            <div className="lg:h-72 h-32 md:h-36 w-max flex flex-col space-y-2">
               <img src={product4} className="h-full w-auto" alt=""></img>
               <p className=" text-xs lg:text-lg">Lorem Ipsum</p>
             </div>
-            <div className="lg:h-72 h-24 md:h-36 w-max flex flex-col items-center space-y-2">
+            <div className="lg:h-72 h-32 md:h-36 w-max flex flex-col space-y-2">
               <img src={product5} className="h-full w-auto" alt=""></img>
               <p className=" text-xs lg:text-lg">Lorem Ipsum</p>
             </div>
-            <div className="lg:h-72 h-24 md:h-36 w-max flex flex-col items-center space-y-2">
+            <div className="lg:h-72 h-32 md:h-36 w-max flex flex-col space-y-2">
               <img src={product6} className="h-full w-auto" alt=""></img>
               <p className=" text-xs lg:text-lg">Lorem Ipsum</p>
             </div>
-            <div className="lg:h-72 h-24 md:h-36 w-max flex flex-col items-center space-y-2">
+            <div className="lg:h-72 h-32 md:h-36 w-max flex flex-col space-y-2">
               <img src={product7} className="h-full w-auto" alt=""></img>
               <p className=" text-xs lg:text-lg">Lorem Ipsum</p>
             </div>
-            <div className="lg:h-72 h-24 md:h-36 w-max flex flex-col items-center space-y-2">
+            <div className="lg:h-72 h-32 md:h-36 w-max flex flex-col space-y-2">
               <img src={product8} className="h-full w-auto" alt=""></img>
               <p className=" text-xs lg:text-lg">Lorem Ipsum</p>
             </div>
-            <div className="lg:h-72 h-24 md:h-36 w-max flex flex-col items-center space-y-2">
-              <img src={product9} className="h-full w-auto" alt=""></img>
+            <div className="lg:h-72 h-32 md:h-36 w-max flex flex-col space-y-2">
+              <img src={product1} className="h-full w-auto" alt=""></img>
               <p className=" text-xs lg:text-lg">Lorem Ipsum</p>
             </div>
-            <div className="lg:h-72 h-24 md:h-36 w-max flex flex-col items-center space-y-2">
+            <div className="lg:h-72 h-32 md:h-36 w-max flex flex-col space-y-2">
               <img src={product10} className="h-full w-auto" alt=""></img>
               <p className=" text-xs lg:text-lg">Lorem Ipsum</p>
             </div>
-            <div className="lg:h-72 h-24 md:h-36 w-max flex flex-col items-center space-y-2">
+            <div className="lg:h-72 h-32 md:h-36 w-max flex flex-col space-y-2">
               <img src={product11} className="h-full w-auto" alt=""></img>
               <p className=" text-xs lg:text-lg">Lorem Ipsum</p>
             </div>
-            <div className="lg:h-72 h-24 md:h-36 w-max flex flex-col items-center space-y-2">
+            <div className="lg:h-72 h-32 md:h-36 w-max flex flex-col space-y-2">
               <img src={product12} className="h-full w-auto" alt=""></img>
               <p className=" text-xs lg:text-lg">Lorem Ipsum</p>
             </div>
           </div>
         ) : selected === 1 ? (
-          <div className="w-max grid grid-cols-4 gap-2 lg:gap-5 lg:gap-y-14 gap-y-10 place-items-center">
-            <div className="lg:h-72 h-24 md:h-36 w-max flex flex-col items-center space-y-2">
+          <div className="w-max grid md:grid-cols-4 grid-cols-3 gap-2 lg:gap-5 lg:gap-y-14 gap-y-10 place-items-center">
+            <div className="lg:h-72 h-32 md:h-36 w-max flex flex-col  space-y-2">
               <img src={bottle1} className="h-full w-auto" alt=""></img>
               <p className=" text-xs lg:text-lg">Lorem Ipsum</p>
             </div>
-            <div className="lg:h-72 h-24 md:h-36 w-max flex flex-col items-center space-y-2">
+            <div className="lg:h-72 h-32 md:h-36 w-max flex flex-col  space-y-2">
               <img src={bottle2} className="h-full w-auto" alt=""></img>
               <p className=" text-xs lg:text-lg">Lorem Ipsum</p>
             </div>
-            <div className="lg:h-72 h-24 md:h-36 w-max flex flex-col items-center space-y-2">
+            <div className="lg:h-72 h-32 md:h-36 w-max flex flex-col  space-y-2">
               <img src={bottle3} className="h-full w-auto" alt=""></img>
               <p className=" text-xs lg:text-lg">Lorem Ipsum</p>
             </div>
-            <div className="lg:h-72 h-24 md:h-36 w-max flex flex-col items-center space-y-2">
+            <div className="lg:h-72 h-32 md:h-36 w-max flex flex-col  space-y-2">
               <img src={bottle4} className="h-full w-auto" alt=""></img>
               <p className=" text-xs lg:text-lg">Lorem Ipsum</p>
             </div>
-            <div className="lg:h-72 h-24 md:h-36 w-max flex flex-col items-center space-y-2">
+            <div className="lg:h-72 h-32 md:h-36 w-max flex flex-col  space-y-2">
               <img src={bottle5} className="h-full w-auto" alt=""></img>
               <p className=" text-xs lg:text-lg">Lorem Ipsum</p>
             </div>
-            <div className="lg:h-72 h-24 md:h-36 w-max flex flex-col items-center space-y-2">
+            <div className="lg:h-72 h-32 md:h-36 w-max flex flex-col  space-y-2">
               <img src={bottle6} className="h-full w-auto" alt=""></img>
               <p className=" text-xs lg:text-lg">Lorem Ipsum</p>
             </div>

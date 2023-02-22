@@ -32,7 +32,7 @@ const About = () => {
         id="vision"
         className="w-full bg-about-vision h-[613px] lg:-mt-40 -mt-24 flex lg:flex-row flex-col lg:justify-center justify-end lg:items-end items-center lg:space-x-10 p-20 lg:p-0"
       >
-        <div className="text-white border border-white lg:h-64 h-52 w-80 lg:w-max lg:mb-20 mb-5 rounded-md flex flex-col p-4 lg:space-y-3 space-y-1">
+        <div className="text-white hover:bg-tertiary hover:bg-opacity-50 border border-white lg:h-64 h-52 w-80 lg:w-max lg:mb-20 mb-5 rounded-md flex flex-col p-4 lg:space-y-3 space-y-1">
           <p className="lg:text-2xl text-lg">Vision</p>
           <p className="lg:text-sm text-xs lg:w-[26rem] w-full">
             We aspire to become a Global Plastic Tube Manufacturing Company by
@@ -44,7 +44,7 @@ const About = () => {
             delight our customers
           </p>
         </div>
-        <div className="text-white border border-white lg:h-64 h-40 w-80 lg:w-max lg:mb-20  rounded-md flex flex-col p-4 lg:space-y-3 space-y-1">
+        <div className="text-white hover:bg-tertiary hover:bg-opacity-50 border border-white lg:h-64 h-40 w-80 lg:w-max lg:mb-20  rounded-md flex flex-col p-4 lg:space-y-3 space-y-1">
           <p className="lg:text-2xl text-lg">Mission</p>
           <p className="lg:text-sm text-xs lg:w-[26rem] w-full">
             Pune Polytech Pvt Ltd will use highly skilled people and technology

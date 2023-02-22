@@ -1,16 +1,26 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../../assets/logo/navbar-logo.svg";
 import menu from "../../assets/icons/menu.svg";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import x from "../../assets/imgs/x.svg";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+
+  const [selectedNav, setSelectedNav] = useState("/");
+
+  const location = useLocation();
 
   const handleToggle = () => {
     setOpen(!open);
   };
 
-  console.log(open);
+  useEffect(() => {
+    if (location && location.pathname) {
+      setSelectedNav(location.pathname);
+    }
+  }, [location]);
 
   return (
     <div
@@ -30,54 +40,166 @@ const Navbar = () => {
       <div className="w-max lg:block hidden">
         <ul className="flex justify-evenly items-center space-x-5">
           <Link to="/">
-            <li>Home</li>
+            <li
+              className={`${
+                selectedNav === "/"
+                  ? "text-primaryLight border-b-2 border-b-primaryLight"
+                  : ""
+              }`}
+            >
+              Home
+            </li>
           </Link>
           <Link to="/about">
-            <li>About Us</li>
+            <li
+              className={`${
+                selectedNav === "/about"
+                  ? "text-primaryLight border-b-2 border-b-primaryLight"
+                  : ""
+              }`}
+            >
+              About Us
+            </li>
           </Link>
           <Link to="/technology">
-            <li>Technology</li>
+            <li
+              className={`${
+                selectedNav === "/technology"
+                  ? "text-primaryLight border-b-2 border-b-primaryLight"
+                  : ""
+              }`}
+            >
+              Technology
+            </li>
           </Link>
           <Link to="/products">
-            <li>Products</li>
+            <li
+              className={`${
+                selectedNav === "/products"
+                  ? "text-primaryLight border-b-2 border-b-primaryLight"
+                  : ""
+              }`}
+            >
+              Products
+            </li>
           </Link>
           <Link to="/gallery">
-            <li>Gallery</li>
+            <li
+              className={`${
+                selectedNav === "/gallery"
+                  ? "text-primaryLight border-b-2 border-b-primaryLight"
+                  : ""
+              }`}
+            >
+              Gallery
+            </li>
           </Link>
           <Link to="/contact">
-            <li>Contact Us</li>
+            <li
+              className={`${
+                selectedNav === "/contact"
+                  ? "text-primaryLight border-b-2 border-b-primaryLight"
+                  : ""
+              }`}
+            >
+              Contact Us
+            </li>
           </Link>
           <Link to="/careers">
-            <li>Careers</li>
+            <li
+              className={`${
+                selectedNav === "/careers"
+                  ? "text-primaryLight border-b-2 border-b-primaryLight"
+                  : ""
+              }`}
+            >
+              Careers
+            </li>
           </Link>
         </ul>
       </div>
       <div className="w-max lg:hidden block">
         <div className="w-max  cursor-pointer" onClick={handleToggle}>
-          <img src={menu} className="w-5 h-5 relative" alt=""></img>
+          <img src={open ? x : menu} className="w-5 h-5 relative" alt=""></img>
           {open && (
-            <div className="absolute top-[4.5rem] lg:h-96 md:h-screen p-6 md:w-1/3 w-2/3 bg-white z-10 right-0 rounded-md">
+            <div className="absolute top-[4.5rem] lg:h-96 md:h-screen p-6 md:w-1/3 w-2/3 bg-white z-10 right-0 ">
               <ul className="flex flex-col justify-evenly items-center space-y-5">
                 <Link to="/">
-                  <li>Home</li>
+                  <li
+                    className={`${
+                      selectedNav === "/"
+                        ? "text-primaryLight border-b-2 border-b-primaryLight"
+                        : ""
+                    }`}
+                  >
+                    Home
+                  </li>
                 </Link>
                 <Link to="/about">
-                  <li>About Us</li>
+                  <li
+                    className={`${
+                      selectedNav === "/about"
+                        ? "text-primaryLight border-b-2 border-b-primaryLight"
+                        : ""
+                    }`}
+                  >
+                    About Us
+                  </li>
                 </Link>
                 <Link to="/technology">
-                  <li>Technology</li>
+                  <li
+                    className={`${
+                      selectedNav === "/technology"
+                        ? "text-primaryLight border-b-2 border-b-primaryLight"
+                        : ""
+                    }`}
+                  >
+                    Technology
+                  </li>
                 </Link>
                 <Link to="/products">
-                  <li>Products</li>
+                  <li
+                    className={`${
+                      selectedNav === "/products"
+                        ? "text-primaryLight border-b-2 border-b-primaryLight"
+                        : ""
+                    }`}
+                  >
+                    Products
+                  </li>
                 </Link>
                 <Link to="/gallery">
-                  <li>Gallery</li>
+                  <li
+                    className={`${
+                      selectedNav === "/gallery"
+                        ? "text-primaryLight border-b-2 border-b-primaryLight"
+                        : ""
+                    }`}
+                  >
+                    Gallery
+                  </li>
                 </Link>
                 <Link to="/contact">
-                  <li>Contact Us</li>
+                  <li
+                    className={`${
+                      selectedNav === "/contact"
+                        ? "text-primaryLight border-b-2 border-b-primaryLight"
+                        : ""
+                    }`}
+                  >
+                    Contact Us
+                  </li>
                 </Link>
                 <Link to="/careers">
-                  <li>Careers</li>
+                  <li
+                    className={`${
+                      selectedNav === "/careers"
+                        ? "text-primaryLight border-b-2 border-b-primaryLight"
+                        : ""
+                    }`}
+                  >
+                    Careers
+                  </li>
                 </Link>
               </ul>
             </div>

@@ -11,6 +11,8 @@ import pharma from "../../assets/imgs/pharma.svg";
 import healthcare from "../../assets/imgs/healthcare.svg";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "../../../node_modules/@splidejs/react-splide/dist/css/themes/splide-sea-green.min.css";
+import tube from "../../assets/imgs/tube.svg";
+import qoutes from "../../assets/imgs/quotes-dark.svg";
 
 const Home = () => {
   return (
@@ -70,88 +72,95 @@ const Home = () => {
         <div className="2xl:text-3xl text-2xl font-bold text-secondary text-center">
           Our USPs
         </div>
-        <div className="w-full h-max flex justify-center 2xl:space-x-5 lg:space-x-6 space-x-2 md:space-x-5 mt-10">
-          <div className="2xl:h-52 2xl:w-52 lg:h-48 lg:w-48 h-20 w-20 md:h-40 md:w-40 rounded-full bg-secondary z-10"></div>
-          <div className="2xl:h-52 2xl:w-52 lg:h-48 lg:w-48 h-20 w-20 md:h-40 md:w-40 rounded-full bg-secondary z-10"></div>
-          <div className="2xl:h-52 2xl:w-52 lg:h-48 lg:w-48 h-20 w-20 md:h-40 md:w-40 rounded-full bg-secondary z-10"></div>
-          <div className="2xl:h-52 2xl:w-52 lg:h-48 lg:w-48 h-20 w-20 md:h-40 md:w-40 rounded-full bg-secondary z-10"></div>
+        <div className="w-full h-max flex justify-center 2xl:space-x-5 lg:space-x-6 space-x-7 md:space-x-5 mt-10">
+          <div className="flex md:flex-row flex-col space-y-5 md:space-y-0 2xl:space-x-5 lg:space-x-6  md:space-x-5">
+            <div className="2xl:h-52 2xl:w-52 lg:h-48 lg:w-48 h-24 w-24 md:h-40 md:w-40 rounded-full bg-secondary z-10"></div>
+
+            <div className="2xl:h-52 2xl:w-52 lg:h-48 lg:w-48 h-24 w-24 md:h-40 md:w-40 rounded-full bg-secondary z-10"></div>
+          </div>
+          <div className="flex md:flex-row flex-col space-y-5 md:space-y-0  2xl:space-x-5 lg:space-x-6  md:space-x-5">
+            <div className="2xl:h-52 2xl:w-52 lg:h-48 lg:w-48 h-24 w-24 md:h-40 md:w-40 rounded-full bg-secondary z-10"></div>
+            <div className="2xl:h-52 2xl:w-52 lg:h-48 lg:w-48 h-24 w-24 md:h-40 md:w-40 rounded-full bg-secondary z-10"></div>
+          </div>
         </div>
-        <div className="2xl:w-full w-screen bg-usp h-[743px] 2xl:-mt-28 -mt-10 md:-mt-20 flex flex-col md:justify-end justify-center space-y-24 items-center px-2 2xl:px-0">
-          <div className="text-white 2xl:text-4xl text-3xl">
+        <div className="2xl:w-full w-screen bg-usp h-[743px] 2xl:-mt-28 -mt-40 md:-mt-20 flex flex-col  space-y-24 items-center px-2 2xl:px-0">
+          <div className="text-white 2xl:text-4xl text-3xl md:mt-40 mt-52">
             Industries we cater to
           </div>
-          <div className="grid gap-5 gap-y-16 grid-cols-3 place-items-center md:w-max w-full h-max">
-            <div className="2xl:w-48 2xl:h-48 lg:h-44 lg:w-44 h-28 w-28 md:h-40 md:w-40 bg-white flex flex-col items-center rounded-md">
-              <div className=" bg-primary 2xl:h-28 2xl:w-28 lg:h-20 lg:w-20 h-14 w-14 rounded-full 2xl:-mt-12 lg:-mt-9 -mt-6 flex justify-center items-center">
-                <img
-                  src={pharma}
-                  className="2xl:h-14 2xl:w-14 lg:h-10 lg:w-10 h-7 w-7"
-                  alt=""
-                ></img>
-              </div>
-              <div className="2xl:text-3xl lg:text-2xl text-lg text-primary mt-6 font-semibold">
-                Pharma
-              </div>
+        </div>
+      </div>
+      <div className="flex w-full justify-center md:-mt-96 -mt-64">
+        <div className="grid md:gap-5 md:gap-y-20 gap-y-20 gap-0 grid-cols-3 place-items-center md:w-max w-full h-max">
+          <div className="2xl:w-56 2xl:h-56 xl:w-52 xl:h-52 lg:h-48 lg:w-48 h-28 w-28 md:h-44 md:w-44 bg-white flex flex-col items-center rounded-md">
+            <div className=" bg-primaryLight 2xl:h-32 2xl:w-32 xl:h-28 xl:w-28 lg:h-24 lg:w-24 md:h-20 md:w-20 h-14 w-14 rounded-full 2xl:-mt-14 xl:-mt-11 lg:-mt-9 md:-mt-8 -mt-6 flex justify-center items-center">
+              <img
+                src={pharma}
+                className="2xl:h-20 2xl:w-20 xl:h-16 xl:w-16 lg:h-14 lg:w-14 md:h-12 md:w-12 h-7 w-7"
+                alt=""
+              ></img>
             </div>
-            <div className="2xl:w-48 2xl:h-48 h-28 w-28 lg:h-44 lg:w-44 md:h-40 md:w-40 bg-white flex flex-col items-center rounded-md">
-              <div className=" bg-secondary 2xl:h-28 2xl:w-28 lg:h-20 lg:w-20 h-14 w-14 rounded-full 2xl:-mt-12 lg:-mt-9 -mt-6 flex justify-center items-center">
-                <img
-                  src={cosmetics}
-                  className="2xl:h-14 2xl:w-14 lg:h-10 lg:w-10 h-7 w-7"
-                  alt=""
-                ></img>
-              </div>
-              <div className="2xl:text-3xl lg:text-2xl text-lg text-secondary mt-6 font-semibold">
-                Cosmetics
-              </div>
+            <div className="2xl:text-3xl md:text-2xl text-lg text-primaryLight mt-6 font-semibold">
+              Pharma
             </div>
-            <div className="2xl:w-48 2xl:h-48 h-28 w-28 lg:h-44 lg:w-44 md:h-40 md:w-40 bg-white flex flex-col items-center rounded-md">
-              <div className=" bg-primary 2xl:h-28 2xl:w-28 lg:h-20 lg:w-20 h-14 w-14 rounded-full 2xl:-mt-12 lg:-mt-9 -mt-6 flex justify-center items-center">
-                <img
-                  src={healthcare}
-                  className="2xl:h-14 2xl:w-14 lg:h-10 lg:w-10 h-7 w-7"
-                  alt=""
-                ></img>
-              </div>
-              <div className="2xl:text-3xl lg:text-2xl text-lg text-primary mt-6 font-semibold">
-                Healthcare
-              </div>
+          </div>
+          <div className="2xl:w-56 2xl:h-56 xl:w-52 xl:h-52 h-28 w-28 lg:h-48 lg:w-48 md:h-44 md:w-44 bg-white flex flex-col items-center rounded-md">
+            <div className=" bg-secondary 2xl:h-32 2xl:w-32 xl:h-28 xl:w-28 lg:h-24 lg:w-24 md:h-20 md:w-20 h-14 w-14 rounded-full 2xl:-mt-14 xl:-mt-11 lg:-mt-9 md:-mt-8 -mt-6 flex justify-center items-center">
+              <img
+                src={cosmetics}
+                className="2xl:h-20 2xl:w-20 xl:h-16 xl:w-16 lg:h-14 lg:w-14 md:h-12 md:w-12 h-7 w-7"
+                alt=""
+              ></img>
             </div>
-            <div className="2xl:w-48 2xl:h-48 h-28 w-28 lg:h-44 lg:w-44 md:h-40 md:w-40 bg-white flex flex-col items-center rounded-md">
-              <div className=" bg-secondary 2xl:h-28 2xl:w-28 lg:h-20 lg:w-20 h-14 w-14 rounded-full 2xl:-mt-12 lg:-mt-9 -mt-6 flex justify-center items-center">
-                <img
-                  src={fmcg}
-                  className="2xl:h-14 2xl:w-14 lg:h-10 lg:w-10 h-7 w-7"
-                  alt=""
-                ></img>
-              </div>
-              <div className="2xl:text-3xl lg:text-2xl text-lg text-secondary mt-6 font-semibold">
-                FMCG
-              </div>
+            <div className="2xl:text-3xl md:text-2xl text-lg text-secondary mt-6 font-semibold">
+              Cosmetics
             </div>
-            <div className="2xl:w-48 2xl:h-48 h-28 w-28 lg:h-44 lg:w-44 md:h-40 md:w-40 bg-white flex flex-col items-center rounded-md">
-              <div className=" bg-primary 2xl:h-28 2xl:w-28 lg:h-20 lg:w-20 h-14 w-14 rounded-full 2xl:-mt-12 lg:-mt-9 -mt-6 flex justify-center items-center">
-                <img
-                  src={automobile}
-                  className="2xl:h-14 2xl:w-14 lg:h-10 lg:w-10 h-7 w-7"
-                  alt=""
-                ></img>
-              </div>
-              <div className="2xl:text-3xl lg:text-2xl text-lg text-primary mt-6 font-semibold">
-                Automobile
-              </div>
+          </div>
+          <div className="2xl:w-56 2xl:h-56 xl:w-52 xl:h-52 h-28 w-28 lg:h-48 lg:w-48 md:h-44 md:w-44 bg-white flex flex-col items-center rounded-md">
+            <div className=" bg-primaryLight 2xl:h-32 2xl:w-32 xl:h-28 xl:w-28 lg:h-24 lg:w-24 md:h-20 md:w-20 h-14 w-14 rounded-full 2xl:-mt-14 xl:-mt-11 lg:-mt-9 md:-mt-8 -mt-6 flex justify-center items-center">
+              <img
+                src={healthcare}
+                className="2xl:h-20 2xl:w-20 xl:h-16 xl:w-16 lg:h-14 lg:w-14 md:h-12 md:w-12 h-7 w-7"
+                alt=""
+              ></img>
             </div>
-            <div className="2xl:w-48 2xl:h-48 h-28 w-28 lg:h-44 lg:w-44 md:h-40 md:w-40 bg-white flex flex-col items-center rounded-md">
-              <div className=" bg-secondary 2xl:h-28 2xl:w-28 lg:h-20 lg:w-20 h-14 w-14 rounded-full 2xl:-mt-12 lg:-mt-9 -mt-6 flex justify-center items-center">
-                <img
-                  src={paint}
-                  className="2xl:h-14 2xl:w-14 lg:h-10 lg:w-10 h-7 w-7"
-                  alt=""
-                ></img>
-              </div>
-              <div className="2xl:text-3xl lg:text-2xl text-lg text-secondary mt-6 font-semibold">
-                Paint
-              </div>
+            <div className="2xl:text-3xl md:text-2xl text-lg text-primaryLight mt-6 font-semibold">
+              Healthcare
+            </div>
+          </div>
+          <div className="2xl:w-56 2xl:h-56 xl:w-52 xl:h-52 h-28 w-28 lg:h-48 lg:w-48 md:h-44 md:w-44 bg-white flex flex-col items-center rounded-md">
+            <div className=" bg-secondary 2xl:h-32 2xl:w-32 xl:h-28 xl:w-28 lg:h-24 lg:w-24 md:h-20 md:w-20 h-14 w-14 rounded-full 2xl:-mt-14 xl:-mt-11 lg:-mt-9 md:-mt-8 -mt-6 flex justify-center items-center">
+              <img
+                src={fmcg}
+                className="2xl:h-20 2xl:w-20 xl:h-16 xl:w-16 lg:h-14 lg:w-14 md:h-12 md:w-12 h-7 w-7"
+                alt=""
+              ></img>
+            </div>
+            <div className="2xl:text-3xl md:text-2xl text-lg text-secondary mt-6 font-semibold">
+              FMCG
+            </div>
+          </div>
+          <div className="2xl:w-56 2xl:h-56 xl:w-52 xl:h-52 h-28 w-28 lg:h-48 lg:w-48 md:h-44 md:w-44 bg-white flex flex-col items-center rounded-md">
+            <div className=" bg-primaryLight 2xl:h-32 2xl:w-32 xl:h-28 xl:w-28 lg:h-24 lg:w-24 md:h-20 md:w-20 h-14 w-14 rounded-full 2xl:-mt-14 xl:-mt-11 lg:-mt-9 md:-mt-8 -mt-6 flex justify-center items-center">
+              <img
+                src={automobile}
+                className="2xl:h-20 2xl:w-20 xl:h-16 xl:w-16 lg:h-14 lg:w-14 md:h-12 md:w-12 h-7 w-7"
+                alt=""
+              ></img>
+            </div>
+            <div className="2xl:text-3xl md:text-2xl text-lg text-primaryLight mt-6 font-semibold">
+              Automobile
+            </div>
+          </div>
+          <div className="2xl:w-56 2xl:h-56 xl:w-52 xl:h-52 h-28 w-28 lg:h-48 lg:w-48 md:h-44 md:w-44 bg-white flex flex-col items-center rounded-md">
+            <div className=" bg-secondary 2xl:h-32 2xl:w-32 xl:h-28 xl:w-28 lg:h-24 lg:w-24 md:h-20 md:w-20 h-14 w-14 rounded-full 2xl:-mt-14 xl:-mt-11 lg:-mt-9 md:-mt-8 -mt-6 flex justify-center items-center">
+              <img
+                src={paint}
+                className="2xl:h-20 2xl:w-20 xl:h-16 xl:w-16 lg:h-14 lg:w-14 md:h-12 md:w-12 h-7 w-7"
+                alt=""
+              ></img>
+            </div>
+            <div className="2xl:text-3xl md:text-2xl text-lg text-secondary mt-6 font-semibold">
+              Paint
             </div>
           </div>
         </div>
@@ -172,9 +181,9 @@ const Home = () => {
             // aria-label="My Favorite Images"
           >
             <SplideSlide>
-              <div className="w-full h-80 bg-secondary rounded-md text-white flex">
-                <div className="w-1/3">
-                  {/* <img src={tube} className="h-96 w-auto" alt=""></img> */}
+              <div className="w-full h-64 bg-secondary rounded-md text-white flex relative">
+                <div className="w-1/3 h-full">
+                  <img src={tube} className="h-full w-auto" alt=""></img>
                 </div>
                 <div className="flex flex-col space-y-4 w-2/3 mt-14">
                   <p className="text-3xl">Lorem ispum</p>
@@ -185,11 +194,16 @@ const Home = () => {
                   </p>
                 </div>
               </div>
+              <img
+                src={qoutes}
+                className="absolute top-8 right-20"
+                alt=""
+              ></img>
             </SplideSlide>
             <SplideSlide>
-              <div className="w-full h-80 bg-secondary rounded-md text-white flex">
-                <div className="w-1/3">
-                  {/* <img src={tube} className="h-96 w-auto" alt=""></img> */}
+              <div className="w-full h-64 bg-secondary rounded-md text-white flex relative">
+                <div className="w-1/3 h-full">
+                  <img src={tube} className="h-full w-auto" alt=""></img>
                 </div>
                 <div className="flex flex-col space-y-4 w-2/3 mt-14">
                   <p className="text-3xl">Lorem ispum</p>
@@ -200,11 +214,16 @@ const Home = () => {
                   </p>
                 </div>
               </div>
+              <img
+                src={qoutes}
+                className="absolute top-8 right-20"
+                alt=""
+              ></img>
             </SplideSlide>
             <SplideSlide>
-              <div className="w-full h-80 bg-secondary rounded-md text-white flex">
-                <div className="w-1/3">
-                  {/* <img src={tube} className="h-96 w-auto" alt=""></img> */}
+              <div className="w-full h-64 bg-secondary rounded-md text-white flex relative">
+                <div className="w-1/3 h-full">
+                  <img src={tube} className="h-full w-auto" alt=""></img>
                 </div>
                 <div className="flex flex-col space-y-4 w-2/3 mt-14">
                   <p className="text-3xl">Lorem ispum</p>
@@ -215,6 +234,11 @@ const Home = () => {
                   </p>
                 </div>
               </div>
+              <img
+                src={qoutes}
+                className="absolute top-8 right-20"
+                alt=""
+              ></img>
             </SplideSlide>
           </Splide>
         </div>
@@ -231,9 +255,9 @@ const Home = () => {
             // aria-label="My Favorite Images"
           >
             <SplideSlide>
-              <div className="w-full h-48 bg-secondary rounded-md text-white flex">
-                <div className="w-1/3">
-                  {/* <img src={tube} className="h-96 w-auto" alt=""></img> */}
+              <div className="w-full h-48 bg-secondary rounded-md text-white flex relative">
+                <div className="w-1/3 h-full">
+                  <img src={tube} className="h-full w-auto" alt=""></img>
                 </div>
                 <div className="flex flex-col space-y-4 w-full 2xl:mt-14 mt-7">
                   <p className="2xl:text-3xl text-xl">Lorem ispum</p>
@@ -244,11 +268,16 @@ const Home = () => {
                   </p>
                 </div>
               </div>
+              <img
+                src={qoutes}
+                className="absolute md:top-8 md:right-20 top-8 right-10 h-20 w-20"
+                alt=""
+              ></img>
             </SplideSlide>
             <SplideSlide>
-              <div className="w-full h-48 bg-secondary rounded-md text-white flex">
-                <div className="w-1/3">
-                  {/* <img src={tube} className="h-96 w-auto" alt=""></img> */}
+              <div className="w-full h-48 bg-secondary rounded-md text-white flex relative">
+                <div className="w-1/3 h-full">
+                  <img src={tube} className="h-full w-auto" alt=""></img>
                 </div>
                 <div className="flex flex-col space-y-4 w-full 2xl:mt-14 mt-7">
                   <p className="2xl:text-3xl text-xl">Lorem ispum</p>
@@ -259,11 +288,16 @@ const Home = () => {
                   </p>
                 </div>
               </div>
+              <img
+                src={qoutes}
+                className="absolute md:top-8 md:right-20 top-8 right-10 h-20 w-20"
+                alt=""
+              ></img>
             </SplideSlide>
             <SplideSlide>
-              <div className="w-full h-48 bg-secondary rounded-md text-white flex">
-                <div className="w-1/3">
-                  {/* <img src={tube} className="h-96 w-auto" alt=""></img> */}
+              <div className="w-full h-48 bg-secondary rounded-md text-white flex relative">
+                <div className="w-1/3 h-full">
+                  <img src={tube} className="h-full w-auto" alt=""></img>
                 </div>
                 <div className="flex flex-col space-y-4 w-full 2xl:mt-14 mt-7">
                   <p className="2xl:text-3xl text-xl">Lorem ispum</p>
@@ -274,6 +308,11 @@ const Home = () => {
                   </p>
                 </div>
               </div>
+              <img
+                src={qoutes}
+                className="absolute md:top-8 md:right-20 top-8 right-10 h-20 w-20"
+                alt=""
+              ></img>
             </SplideSlide>
           </Splide>
         </div>
