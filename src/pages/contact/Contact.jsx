@@ -6,7 +6,7 @@ import email from "../../assets/imgs/email-purple.svg";
 const Contact = () => {
   return (
     <div className="w-full">
-      <div className="bg-contact-head w-full lg:h-[277px] h-[109px] relative">
+      <div className="bg-contact-head w-full 2xl:h-[277px] lg:h-[232px] md:h-[156px] h-[109px] relative">
         <div className="text-white lg:text-5xl text-2xl font-semibold absolute lg:bottom-14 lg:left-60 bottom-4 left-14">
           Contact Us
         </div>

@@ -28,7 +28,7 @@ const Home = () => {
         ></img>
         <Link
           to="/"
-          className="w-max 2xl:px-16 2xl:py-2 px-8 py-1 2xl:text-lg text-sm bg-white rounded-md absolute top-1/2 left-1/2 -translate-x-1/2 2xl:mt-40 -mt-14"
+          className="w-max 2xl:px-16 2xl:py-2 lg:px-12 lg:py-1.5 px-8 py-1 2xl:text-lg lg:text-lg text-sm bg-white rounded-md absolute top-1/2 left-1/2 -translate-x-1/2 2xl:mt-40 xl:mt-28 lg:mt-20 md:mt-60 -mt-14"
         >
           See Catalogue
         </Link>
@@ -70,86 +70,86 @@ const Home = () => {
         <div className="2xl:text-3xl text-2xl font-bold text-secondary text-center">
           Our USPs
         </div>
-        <div className="w-full h-max flex justify-center 2xl:space-x-5 space-x-2 md:space-x-5 mt-10">
-          <div className="2xl:h-52 2xl:w-52 h-20 w-20 md:h-40 md:w-40 rounded-full bg-tertiary z-10"></div>
-          <div className="2xl:h-52 2xl:w-52 h-20 w-20 md:h-40 md:w-40 rounded-full bg-tertiary z-10"></div>
-          <div className="2xl:h-52 2xl:w-52 h-20 w-20 md:h-40 md:w-40 rounded-full bg-tertiary z-10"></div>
-          <div className="2xl:h-52 2xl:w-52 h-20 w-20 md:h-40 md:w-40 rounded-full bg-tertiary z-10"></div>
+        <div className="w-full h-max flex justify-center 2xl:space-x-5 lg:space-x-6 space-x-2 md:space-x-5 mt-10">
+          <div className="2xl:h-52 2xl:w-52 lg:h-48 lg:w-48 h-20 w-20 md:h-40 md:w-40 rounded-full bg-secondary z-10"></div>
+          <div className="2xl:h-52 2xl:w-52 lg:h-48 lg:w-48 h-20 w-20 md:h-40 md:w-40 rounded-full bg-secondary z-10"></div>
+          <div className="2xl:h-52 2xl:w-52 lg:h-48 lg:w-48 h-20 w-20 md:h-40 md:w-40 rounded-full bg-secondary z-10"></div>
+          <div className="2xl:h-52 2xl:w-52 lg:h-48 lg:w-48 h-20 w-20 md:h-40 md:w-40 rounded-full bg-secondary z-10"></div>
         </div>
-        <div className="2xl:w-full w-screen bg-usp h-[743px] 2xl:-mt-28 -mt-10 md:-mt-20 flex flex-col 2xl:justify-end justify-center space-y-24 items-center px-2 2xl:px-0">
+        <div className="2xl:w-full w-screen bg-usp h-[743px] 2xl:-mt-28 -mt-10 md:-mt-20 flex flex-col md:justify-end justify-center space-y-24 items-center px-2 2xl:px-0">
           <div className="text-white 2xl:text-4xl text-3xl">
             Industries we cater to
           </div>
-          <div className="grid gap-5 gap-y-16 grid-cols-3 place-items-center 2xl:w-max w-full h-max">
-            <div className="2xl:w-48 2xl:h-48 h-28 w-28 md:h-40 md:w-40 bg-white flex flex-col items-center rounded-md">
-              <div className=" bg-primary 2xl:h-28 2xl:w-28 h-14 w-14 rounded-full 2xl:-mt-12 -mt-6 flex justify-center items-center">
+          <div className="grid gap-5 gap-y-16 grid-cols-3 place-items-center md:w-max w-full h-max">
+            <div className="2xl:w-48 2xl:h-48 lg:h-44 lg:w-44 h-28 w-28 md:h-40 md:w-40 bg-white flex flex-col items-center rounded-md">
+              <div className=" bg-primary 2xl:h-28 2xl:w-28 lg:h-20 lg:w-20 h-14 w-14 rounded-full 2xl:-mt-12 lg:-mt-9 -mt-6 flex justify-center items-center">
                 <img
                   src={pharma}
-                  className="2xl:h-14 2xl:w-14 h-7 w-7"
+                  className="2xl:h-14 2xl:w-14 lg:h-10 lg:w-10 h-7 w-7"
                   alt=""
                 ></img>
               </div>
-              <div className="2xl:text-3xl text-lg text-primary mt-6 font-semibold">
+              <div className="2xl:text-3xl lg:text-2xl text-lg text-primary mt-6 font-semibold">
                 Pharma
               </div>
             </div>
-            <div className="2xl:w-48 2xl:h-48 h-28 w-28 md:h-40 md:w-40 bg-white flex flex-col items-center rounded-md">
-              <div className=" bg-secondary 2xl:h-28 2xl:w-28 h-14 w-14 rounded-full 2xl:-mt-12 -mt-6 flex justify-center items-center">
+            <div className="2xl:w-48 2xl:h-48 h-28 w-28 lg:h-44 lg:w-44 md:h-40 md:w-40 bg-white flex flex-col items-center rounded-md">
+              <div className=" bg-secondary 2xl:h-28 2xl:w-28 lg:h-20 lg:w-20 h-14 w-14 rounded-full 2xl:-mt-12 lg:-mt-9 -mt-6 flex justify-center items-center">
                 <img
                   src={cosmetics}
-                  className="2xl:h-14 2xl:w-14 h-7 w-7"
+                  className="2xl:h-14 2xl:w-14 lg:h-10 lg:w-10 h-7 w-7"
                   alt=""
                 ></img>
               </div>
-              <div className="2xl:text-3xl text-lg text-secondary mt-6 font-semibold">
+              <div className="2xl:text-3xl lg:text-2xl text-lg text-secondary mt-6 font-semibold">
                 Cosmetics
               </div>
             </div>
-            <div className="2xl:w-48 2xl:h-48 h-28 w-28 md:h-40 md:w-40 bg-white flex flex-col items-center rounded-md">
-              <div className=" bg-primary 2xl:h-28 2xl:w-28 h-14 w-14 rounded-full 2xl:-mt-12 -mt-6 flex justify-center items-center">
+            <div className="2xl:w-48 2xl:h-48 h-28 w-28 lg:h-44 lg:w-44 md:h-40 md:w-40 bg-white flex flex-col items-center rounded-md">
+              <div className=" bg-primary 2xl:h-28 2xl:w-28 lg:h-20 lg:w-20 h-14 w-14 rounded-full 2xl:-mt-12 lg:-mt-9 -mt-6 flex justify-center items-center">
                 <img
                   src={healthcare}
-                  className="2xl:h-14 2xl:w-14 h-7 w-7"
+                  className="2xl:h-14 2xl:w-14 lg:h-10 lg:w-10 h-7 w-7"
                   alt=""
                 ></img>
               </div>
-              <div className="2xl:text-3xl text-lg text-primary mt-6 font-semibold">
+              <div className="2xl:text-3xl lg:text-2xl text-lg text-primary mt-6 font-semibold">
                 Healthcare
               </div>
             </div>
-            <div className="2xl:w-48 2xl:h-48 h-28 w-28 md:h-40 md:w-40 bg-white flex flex-col items-center rounded-md">
-              <div className=" bg-secondary 2xl:h-28 2xl:w-28 h-14 w-14 rounded-full 2xl:-mt-12 -mt-6 flex justify-center items-center">
+            <div className="2xl:w-48 2xl:h-48 h-28 w-28 lg:h-44 lg:w-44 md:h-40 md:w-40 bg-white flex flex-col items-center rounded-md">
+              <div className=" bg-secondary 2xl:h-28 2xl:w-28 lg:h-20 lg:w-20 h-14 w-14 rounded-full 2xl:-mt-12 lg:-mt-9 -mt-6 flex justify-center items-center">
                 <img
                   src={fmcg}
-                  className="2xl:h-14 2xl:w-14 h-7 w-7"
+                  className="2xl:h-14 2xl:w-14 lg:h-10 lg:w-10 h-7 w-7"
                   alt=""
                 ></img>
               </div>
-              <div className="2xl:text-3xl text-lg text-secondary mt-6 font-semibold">
+              <div className="2xl:text-3xl lg:text-2xl text-lg text-secondary mt-6 font-semibold">
                 FMCG
               </div>
             </div>
-            <div className="2xl:w-48 2xl:h-48 h-28 w-28 md:h-40 md:w-40 bg-white flex flex-col items-center rounded-md">
-              <div className=" bg-primary 2xl:h-28 2xl:w-28 h-14 w-14 rounded-full 2xl:-mt-12 -mt-6 flex justify-center items-center">
+            <div className="2xl:w-48 2xl:h-48 h-28 w-28 lg:h-44 lg:w-44 md:h-40 md:w-40 bg-white flex flex-col items-center rounded-md">
+              <div className=" bg-primary 2xl:h-28 2xl:w-28 lg:h-20 lg:w-20 h-14 w-14 rounded-full 2xl:-mt-12 lg:-mt-9 -mt-6 flex justify-center items-center">
                 <img
                   src={automobile}
-                  className="2xl:h-14 2xl:w-14 h-7 w-7"
+                  className="2xl:h-14 2xl:w-14 lg:h-10 lg:w-10 h-7 w-7"
                   alt=""
                 ></img>
               </div>
-              <div className="2xl:text-3xl text-lg text-primary mt-6 font-semibold">
+              <div className="2xl:text-3xl lg:text-2xl text-lg text-primary mt-6 font-semibold">
                 Automobile
               </div>
             </div>
-            <div className="2xl:w-48 2xl:h-48 h-28 w-28 md:h-40 md:w-40 bg-white flex flex-col items-center rounded-md">
-              <div className=" bg-secondary 2xl:h-28 2xl:w-28 h-14 w-14 rounded-full 2xl:-mt-12 -mt-6 flex justify-center items-center">
+            <div className="2xl:w-48 2xl:h-48 h-28 w-28 lg:h-44 lg:w-44 md:h-40 md:w-40 bg-white flex flex-col items-center rounded-md">
+              <div className=" bg-secondary 2xl:h-28 2xl:w-28 lg:h-20 lg:w-20 h-14 w-14 rounded-full 2xl:-mt-12 lg:-mt-9 -mt-6 flex justify-center items-center">
                 <img
                   src={paint}
-                  className="2xl:h-14 2xl:w-14 h-7 w-7"
+                  className="2xl:h-14 2xl:w-14 lg:h-10 lg:w-10 h-7 w-7"
                   alt=""
                 ></img>
               </div>
-              <div className="2xl:text-3xl text-lg text-secondary mt-6 font-semibold">
+              <div className="2xl:text-3xl lg:text-2xl text-lg text-secondary mt-6 font-semibold">
                 Paint
               </div>
             </div>
@@ -160,7 +160,7 @@ const Home = () => {
         <div className="text-3xl font-bold text-secondary text-center">
           Testimonials
         </div>
-        <div className="w-full 2xl:block hidden">
+        <div className="w-full lg:block hidden">
           <Splide
             options={{
               rewind: true,
@@ -218,7 +218,7 @@ const Home = () => {
             </SplideSlide>
           </Splide>
         </div>
-        <div className="w-full 2xl:hidden block">
+        <div className="w-full lg:hidden block">
           <Splide
             options={{
               rewind: true,

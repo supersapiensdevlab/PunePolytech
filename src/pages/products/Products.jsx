@@ -23,16 +23,16 @@ const Products = () => {
 
   return (
     <div id="products" className="w-full">
-      <div className="bg-product-head w-full lg:h-[277px] h-[109px] relative">
+      <div className="bg-product-head w-full 2xl:h-[277px] lg:h-[232px] md:h-[156px] h-[109px] relative">
         <div className="text-white lg:text-5xl text-2xl font-semibold absolute lg:bottom-14 lg:left-60 bottom-4 left-14">
           Products
           <p className="lg:text-sm text-xs">You can contact us on</p>
         </div>
       </div>
-      <div className="w-full flex justify-center mt-10">
+      <div className="w-full flex justify-center lg:justify-start xl:-ml-20 2xl:-ml-10 lg:-ml-24 mt-10">
         <div className="lg:w-2/3 w-5/6 flex items-center justify-center rounded-sm lg:space-x-5 space-x-4">
           <div
-            className="1/3 cursor-pointer text-sm lg:text-md"
+            className="1/3 cursor-pointer text-sm lg:text-lg"
             onClick={() => {
               setSelected(0);
             }}
@@ -45,7 +45,7 @@ const Products = () => {
             ></div>
           </div>
           <div
-            className="1/3 cursor-pointer text-sm lg:text-md"
+            className="1/3 cursor-pointer text-sm lg:text-lg"
             onClick={() => {
               setSelected(1);
             }}
@@ -58,7 +58,7 @@ const Products = () => {
             ></div>
           </div>
           <div
-            className="1/3 cursor-pointer text-sm lg:text-md"
+            className="1/3 cursor-pointer text-sm lg:text-lg"
             onClick={() => {
               setSelected(2);
             }}
@@ -125,7 +125,7 @@ const Products = () => {
             </div>
           </div>
         ) : selected === 1 ? (
-          <div className="w-max grid grid-cols-3 gap-2 lg:gap-5 lg:gap-y-14 gap-y-10 place-items-center">
+          <div className="w-max grid grid-cols-4 gap-2 lg:gap-5 lg:gap-y-14 gap-y-10 place-items-center">
             <div className="lg:h-72 h-24 md:h-36 w-max flex flex-col items-center space-y-2">
               <img src={bottle1} className="h-full w-auto" alt=""></img>
               <p className=" text-xs lg:text-lg">Lorem Ipsum</p>

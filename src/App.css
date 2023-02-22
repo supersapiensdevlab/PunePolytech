@@ -1,3 +1,8 @@
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
 .bg-hero-head{
     background-image: url("./assets/imgs/hero-background.svg");
     background-position: 0 100%;
@@ -30,6 +35,12 @@
 
 .bg-product-head{
     background-image: url("./assets/imgs/products-hero.svg");
+    background-position: 0 100%;
+    background-size: cover;
+}
+
+.bg-tech-comp{
+    background-image: url("./assets/imgs/tech-comp.svg");
     background-position: 0 100%;
     background-size: cover;
 }

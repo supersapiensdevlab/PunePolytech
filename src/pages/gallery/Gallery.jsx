@@ -43,7 +43,7 @@ const Gallery = () => {
 
   return (
     <div className="w-full">
-      <div className="bg-product-head w-full lg:h-[277px] h-[109px] relative">
+      <div className="bg-product-head w-full 2xl:h-[277px] lg:h-[232px] md:h-[156px] h-[109px] relative">
         <div className="text-white lg:text-5xl text-2xl font-semibold absolute lg:bottom-14 lg:left-60 bottom-4 left-14">
           Gallery
         </div>
@@ -51,7 +51,7 @@ const Gallery = () => {
       <div className="w-full flex justify-center items-center px-5 lg:px-0">
         <img src={selected} className="mt-5 lg:h-96 w-auto h-60" alt=""></img>
       </div>
-      <div className="lg:w-4/5 w-full block m-auto">
+      <div className="2xl:w-4/5 lg:w-11/12 w-full block m-auto">
         <Splide
           options={{
             rewind: true,
@@ -63,7 +63,7 @@ const Gallery = () => {
         >
           <SplideSlide>
             <div
-              className="lg:h-36 lg:w-36 h-12 w-12 md:h-20 md:w-20 cursor-pointer"
+              className="2xl:h-36 2xl:w-36 lg:h-32 lg:w-32 h-12 w-12 md:h-24 md:w-24 cursor-pointer"
               onClick={() => {
                 handleImagePreview(1);
               }}
@@ -77,7 +77,7 @@ const Gallery = () => {
           </SplideSlide>
           <SplideSlide>
             <div
-              className="lg:h-36 lg:w-36 h-12 w-12 md:h-20 md:w-20  cursor-pointer"
+              className="2xl:h-36 2xl:w-36 lg:h-32 lg:w-32 h-12 w-12 md:h-24 md:w-24  cursor-pointer"
               onClick={() => {
                 handleImagePreview(2);
               }}
@@ -91,7 +91,7 @@ const Gallery = () => {
           </SplideSlide>
           <SplideSlide>
             <div
-              className="lg:h-36 lg:w-36 h-12 w-12 md:h-20 md:w-20  cursor-pointer"
+              className="2xl:h-36 2xl:w-36 lg:h-32 lg:w-32 h-12 w-12 md:h-24 md:w-24  cursor-pointer"
               onClick={() => {
                 handleImagePreview(3);
               }}
@@ -105,7 +105,7 @@ const Gallery = () => {
           </SplideSlide>
           <SplideSlide>
             <div
-              className="lg:h-36 lg:w-36 h-12 w-12 md:h-20 md:w-20  cursor-pointer"
+              className="2xl:h-36 2xl:w-36 lg:h-32 lg:w-32 h-12 w-12 md:h-24 md:w-24  cursor-pointer"
               onClick={() => {
                 handleImagePreview(4);
               }}
@@ -119,7 +119,7 @@ const Gallery = () => {
           </SplideSlide>
           <SplideSlide>
             <div
-              className="lg:h-36 lg:w-36 h-12 w-12 md:h-20 md:w-20  cursor-pointer"
+              className="2xl:h-36 2xl:w-36 lg:h-32 lg:w-32 h-12 w-12 md:h-24 md:w-24  cursor-pointer"
               onClick={() => {
                 handleImagePreview(5);
               }}
@@ -133,7 +133,7 @@ const Gallery = () => {
           </SplideSlide>
           <SplideSlide>
             <div
-              className="lg:h-36 lg:w-36 h-12 w-12 md:h-20 md:w-20  cursor-pointer"
+              className="2xl:h-36 2xl:w-36 lg:h-32 lg:w-32 h-12 w-12 md:h-24 md:w-24  cursor-pointer"
               onClick={() => {
                 handleImagePreview(6);
               }}
@@ -147,7 +147,7 @@ const Gallery = () => {
           </SplideSlide>
           <SplideSlide>
             <div
-              className="lg:h-36 lg:w-36 h-12 w-12 md:h-20 md:w-20  cursor-pointer"
+              className="2xl:h-36 2xl:w-36 lg:h-32 lg:w-32 h-12 w-12 md:h-24 md:w-24  cursor-pointer"
               onClick={() => {
                 handleImagePreview(7);
               }}
