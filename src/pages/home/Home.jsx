@@ -181,13 +181,10 @@ const Home = () => {
             // aria-label="My Favorite Images"
           >
             <SplideSlide>
-              <div className="w-full h-64 bg-secondary rounded-md text-white flex relative">
-                <div className="w-1/3 h-full">
-                  <img src={tube} className="h-full w-auto" alt=""></img>
-                </div>
-                <div className="flex flex-col space-y-4 w-2/3 mt-14">
+              <div className="w-full h-64 bg-secondary rounded-md text-white relative mt-10 mb-24">
+                <div className="flex flex-col space-y-4 mt-14 absolute left-64 pr-5">
                   <p className="text-3xl">Lorem ispum</p>
-                  <p>
+                  <p className="text-sm">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Reprehenderit obcaecati blanditiis aspernatur magnam
                     ducimus. Totam, laboriosam quas. .
@@ -195,19 +192,21 @@ const Home = () => {
                 </div>
               </div>
               <img
+                src={tube}
+                className=" w-auto object-cover absolute h-96 -top-3 bottom-2  z-20"
+                alt=""
+              ></img>
+              <img
                 src={qoutes}
-                className="absolute top-8 right-20"
+                className="absolute xl:right-20 lg:top-20 right-12"
                 alt=""
               ></img>
             </SplideSlide>
             <SplideSlide>
-              <div className="w-full h-64 bg-secondary rounded-md text-white flex relative">
-                <div className="w-1/3 h-full">
-                  <img src={tube} className="h-full w-auto" alt=""></img>
-                </div>
-                <div className="flex flex-col space-y-4 w-2/3 mt-14">
+              <div className="w-full h-64 bg-secondary rounded-md text-white relative mt-10 mb-24">
+                <div className="flex flex-col space-y-4 mt-14 absolute left-64 pr-5">
                   <p className="text-3xl">Lorem ispum</p>
-                  <p>
+                  <p className="text-sm">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Reprehenderit obcaecati blanditiis aspernatur magnam
                     ducimus. Totam, laboriosam quas. .
@@ -215,19 +214,21 @@ const Home = () => {
                 </div>
               </div>
               <img
+                src={tube}
+                className=" w-auto object-cover absolute h-96 -top-3 bottom-2  z-20"
+                alt=""
+              ></img>
+              <img
                 src={qoutes}
-                className="absolute top-8 right-20"
+                className="absolute top-20 right-20"
                 alt=""
               ></img>
             </SplideSlide>
             <SplideSlide>
-              <div className="w-full h-64 bg-secondary rounded-md text-white flex relative">
-                <div className="w-1/3 h-full">
-                  <img src={tube} className="h-full w-auto" alt=""></img>
-                </div>
-                <div className="flex flex-col space-y-4 w-2/3 mt-14">
+              <div className="w-full h-64 bg-secondary rounded-md text-white relative mt-10 mb-24">
+                <div className="flex flex-col space-y-4 mt-14 absolute left-64 pr-5">
                   <p className="text-3xl">Lorem ispum</p>
-                  <p>
+                  <p className="text-sm">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Reprehenderit obcaecati blanditiis aspernatur magnam
                     ducimus. Totam, laboriosam quas. .
@@ -235,8 +236,13 @@ const Home = () => {
                 </div>
               </div>
               <img
+                src={tube}
+                className=" w-auto object-cover absolute h-96 -top-3 bottom-2  z-20"
+                alt=""
+              ></img>
+              <img
                 src={qoutes}
-                className="absolute top-8 right-20"
+                className="absolute top-20 right-20"
                 alt=""
               ></img>
             </SplideSlide>
@@ -250,18 +256,15 @@ const Home = () => {
               type: "loop",
               perPage: 1,
               focus: "center",
-              height: "50%",
+              height: "40%",
             }}
             // aria-label="My Favorite Images"
           >
             <SplideSlide>
-              <div className="w-full h-48 bg-secondary rounded-md text-white flex relative">
-                <div className="w-1/3 h-full">
-                  <img src={tube} className="h-full w-auto" alt=""></img>
-                </div>
-                <div className="flex flex-col space-y-4 w-full 2xl:mt-14 mt-7">
-                  <p className="2xl:text-3xl text-xl">Lorem ispum</p>
-                  <p className="text-sm 2xl:text-lg">
+              <div className="w-full md:h-48 h-32 bg-secondary rounded-md text-white relative md:my-14 my-11">
+                <div className="flex flex-col md:space-y-4 space-y-2  2xl:mt-14 md:mt-7 mt-2 absolute md:left-48 left-32 md:pr-5 pr-2">
+                  <p className="2xl:text-3xl md:text-xl text-md">Lorem ispum</p>
+                  <p className="md:text-sm 2xl:text-lg text-xs">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Reprehenderit obcaecati blanditiis aspernatur magnam
                     ducimus. Totam, laboriosam quas. .
@@ -269,19 +272,21 @@ const Home = () => {
                 </div>
               </div>
               <img
+                src={tube}
+                className=" w-auto object-cover absolute md:h-72 h-48 -md:top-1 top-3 bottom-2 -left-1  z-20"
+                alt=""
+              ></img>
+              <img
                 src={qoutes}
-                className="absolute md:top-8 md:right-20 top-8 right-10 h-20 w-20"
+                className="absolute md:top-16 md:right-20 top-14 right-7 h-14 w-14 md:h-20 md:w-20"
                 alt=""
               ></img>
             </SplideSlide>
             <SplideSlide>
-              <div className="w-full h-48 bg-secondary rounded-md text-white flex relative">
-                <div className="w-1/3 h-full">
-                  <img src={tube} className="h-full w-auto" alt=""></img>
-                </div>
-                <div className="flex flex-col space-y-4 w-full 2xl:mt-14 mt-7">
-                  <p className="2xl:text-3xl text-xl">Lorem ispum</p>
-                  <p className="text-sm 2xl:text-lg">
+              <div className="w-full md:h-48 h-32 bg-secondary rounded-md text-white relative md:my-14 my-11">
+                <div className="flex flex-col md:space-y-4 space-y-2  2xl:mt-14 md:mt-7 mt-2 absolute md:left-48 left-32 md:pr-5 pr-2">
+                  <p className="2xl:text-3xl md:text-xl text-md">Lorem ispum</p>
+                  <p className="md:text-sm 2xl:text-lg text-xs">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Reprehenderit obcaecati blanditiis aspernatur magnam
                     ducimus. Totam, laboriosam quas. .
@@ -289,19 +294,21 @@ const Home = () => {
                 </div>
               </div>
               <img
+                src={tube}
+                className=" w-auto object-cover absolute md:h-72 h-48 -md:top-1 top-3 bottom-2 -left-1  z-20"
+                alt=""
+              ></img>
+              <img
                 src={qoutes}
-                className="absolute md:top-8 md:right-20 top-8 right-10 h-20 w-20"
+                className="absolute md:top-16 md:right-20 top-14 right-7 h-14 w-14 md:h-20 md:w-20"
                 alt=""
               ></img>
             </SplideSlide>
             <SplideSlide>
-              <div className="w-full h-48 bg-secondary rounded-md text-white flex relative">
-                <div className="w-1/3 h-full">
-                  <img src={tube} className="h-full w-auto" alt=""></img>
-                </div>
-                <div className="flex flex-col space-y-4 w-full 2xl:mt-14 mt-7">
-                  <p className="2xl:text-3xl text-xl">Lorem ispum</p>
-                  <p className="text-sm 2xl:text-lg">
+              <div className="w-full md:h-48 h-32 bg-secondary rounded-md text-white relative md:my-14 my-11">
+                <div className="flex flex-col md:space-y-4 space-y-2  2xl:mt-14 md:mt-7 mt-2 absolute md:left-48 left-32 md:pr-5 pr-2">
+                  <p className="2xl:text-3xl md:text-xl text-md">Lorem ispum</p>
+                  <p className="md:text-sm 2xl:text-lg text-xs">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Reprehenderit obcaecati blanditiis aspernatur magnam
                     ducimus. Totam, laboriosam quas. .
@@ -309,8 +316,13 @@ const Home = () => {
                 </div>
               </div>
               <img
+                src={tube}
+                className=" w-auto object-cover absolute md:h-72 h-48 -md:top-1 top-3 bottom-2 -left-1  z-20"
+                alt=""
+              ></img>
+              <img
                 src={qoutes}
-                className="absolute md:top-8 md:right-20 top-8 right-10 h-20 w-20"
+                className="absolute md:top-16 md:right-20 top-14 right-7 h-14 w-14 md:h-20 md:w-20"
                 alt=""
               ></img>
             </SplideSlide>
