@@ -51,7 +51,7 @@ const Gallery = () => {
       <div className="w-full flex justify-center items-center px-5 lg:px-0">
         <img src={selected} className="mt-5 lg:h-96 w-auto h-60" alt=""></img>
       </div>
-      <div className="2xl:w-4/5 lg:w-11/12 w-full block m-auto">
+      <div className="2xl:w-4/5 lg:w-11/12 w-full md:block hidden m-auto">
         <Splide
           options={{
             rewind: true,
@@ -148,6 +148,116 @@ const Gallery = () => {
           <SplideSlide>
             <div
               className="2xl:h-36 2xl:w-36 lg:h-32 lg:w-32 h-12 w-12 md:h-24 md:w-24  cursor-pointer"
+              onClick={() => {
+                handleImagePreview(7);
+              }}
+            >
+              <img
+                src={gallery7}
+                className="h-full w-full object-cover"
+                alt=""
+              ></img>
+            </div>
+          </SplideSlide>
+        </Splide>
+      </div>
+      <div className="2xl:w-4/5 lg:w-11/12 w-full block md:hidden m-auto">
+        <Splide
+          options={{
+            rewind: true,
+            gap: "1rem",
+            perPage: 3,
+            focus: "center",
+          }}
+          // aria-label="My Favorite Images"
+        >
+          <SplideSlide>
+            <div
+              className="2xl:h-36 2xl:w-36 lg:h-32 lg:w-32 h-28 w-28 md:h-24 md:w-24 cursor-pointer"
+              onClick={() => {
+                handleImagePreview(1);
+              }}
+            >
+              <img
+                src={gallery1}
+                className="h-full w-full object-cover"
+                alt=""
+              ></img>
+            </div>
+          </SplideSlide>
+          <SplideSlide>
+            <div
+              className="2xl:h-36 2xl:w-36 lg:h-32 lg:w-32 h-28 w-28 md:h-24 md:w-24  cursor-pointer"
+              onClick={() => {
+                handleImagePreview(2);
+              }}
+            >
+              <img
+                src={gallery2}
+                className="h-full w-full object-cover"
+                alt=""
+              ></img>
+            </div>
+          </SplideSlide>
+          <SplideSlide>
+            <div
+              className="2xl:h-36 2xl:w-36 lg:h-32 lg:w-32 h-28 w-28 md:h-24 md:w-24  cursor-pointer"
+              onClick={() => {
+                handleImagePreview(3);
+              }}
+            >
+              <img
+                src={gallery3}
+                className="h-full w-full object-cover"
+                alt=""
+              ></img>
+            </div>
+          </SplideSlide>
+          <SplideSlide>
+            <div
+              className="2xl:h-36 2xl:w-36 lg:h-32 lg:w-32 h-28 w-28 md:h-24 md:w-24  cursor-pointer"
+              onClick={() => {
+                handleImagePreview(4);
+              }}
+            >
+              <img
+                src={gallery4}
+                className="h-full w-full object-cover"
+                alt=""
+              ></img>
+            </div>
+          </SplideSlide>
+          <SplideSlide>
+            <div
+              className="2xl:h-36 2xl:w-36 lg:h-32 lg:w-32 h-28 w-28 md:h-24 md:w-24  cursor-pointer"
+              onClick={() => {
+                handleImagePreview(5);
+              }}
+            >
+              <img
+                src={gallery5}
+                className="h-full w-full object-cover"
+                alt=""
+              ></img>
+            </div>
+          </SplideSlide>
+          <SplideSlide>
+            <div
+              className="2xl:h-36 2xl:w-36 lg:h-32 lg:w-32 h-28 w-28 md:h-24 md:w-24  cursor-pointer"
+              onClick={() => {
+                handleImagePreview(6);
+              }}
+            >
+              <img
+                src={gallery6}
+                className="h-full w-full object-cover"
+                alt=""
+              ></img>
+            </div>
+          </SplideSlide>
+          <SplideSlide>
+            <div
+              className="2xl:h-36 2xl:w-36 lg:h-32 lg:w-32 h-28 w-28 md:h-24 md:w-24  cursor-pointer"
               onClick={() => {
                 handleImagePreview(7);
               }}
