@@ -111,8 +111,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="2xl:w-full w-screen bg-usp 2xl:h-[743px] h-[496px] 2xl:-mt-28 -mt-40 md:-mt-20 flex flex-col  space-y-24 items-center px-2 2xl:px-0">
-          <div className="text-white 2xl:text-4xl text-3xl md:mt-40 mt-48">
+        <div className="2xl:w-full w-screen bg-usp md:h-[743px] h-[496px] 2xl:-mt-28 -mt-40 md:-mt-20 flex flex-col  space-y-24 items-center px-2 2xl:px-0">
+          <div className="text-white 2xl:text-4xl text-3xl md:mt-48 mt-48">
             Industries we cater to
           </div>
         </div>
