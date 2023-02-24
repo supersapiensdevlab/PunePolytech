@@ -50,7 +50,7 @@ const Contact = () => {
           />
           <input
             type="textarea"
-            className="w-full h-1/2 rounded-lg bg-tertiary p-3  "
+            className="w-full h-1/2 rounded-lg bg-tertiary p-3"
             placeholder="Your message"
           />
           <div className="bg-primaryLight h-12 w-36 text-white flex justify-center items-center rounded-lg self-center lg:self-start">

@@ -122,7 +122,7 @@ const Navbar = () => {
         <div className="w-max  cursor-pointer" onClick={handleToggle}>
           <img src={open ? x : menu} className="w-5 h-5 relative" alt=""></img>
           {open && (
-            <div className="absolute top-[4.5rem] lg:h-96 md:h-screen p-6 md:w-1/3 w-2/3 bg-white z-10 right-0 ">
+            <div className="absolute top-[4.5rem] lg:h-96 md:h-screen p-6 md:w-1/3  w-full bg-white z-10 right-0 drop-shadow-md  border-primary border-b">
               <ul className="flex flex-col justify-evenly items-center space-y-5">
                 <Link to="/">
                   <li

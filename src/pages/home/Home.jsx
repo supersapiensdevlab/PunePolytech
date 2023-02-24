@@ -13,6 +13,10 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "../../../node_modules/@splidejs/react-splide/dist/css/themes/splide-sea-green.min.css";
 import tube from "../../assets/imgs/tube.svg";
 import qoutes from "../../assets/imgs/quotes-dark.svg";
+import usp1 from "../../assets/imgs/usp1.svg";
+import usp2 from "../../assets/imgs/usp2.svg";
+import usp3 from "../../assets/imgs/usp3.svg";
+import usp4 from "../../assets/imgs/usp4.svg";
 
 const Home = () => {
   return (
@@ -74,23 +78,47 @@ const Home = () => {
         </div>
         <div className="w-full h-max flex justify-center 2xl:space-x-5 lg:space-x-6 space-x-7 md:space-x-5 mt-10">
           <div className="flex md:flex-row flex-col space-y-5 md:space-y-0 2xl:space-x-5 lg:space-x-6  md:space-x-5">
-            <div className="2xl:h-52 2xl:w-52 lg:h-48 lg:w-48 h-24 w-24 md:h-40 md:w-40 rounded-full bg-secondary z-10"></div>
+            <div className="2xl:h-52 2xl:w-52 lg:h-48 lg:w-48 h-24 w-24 md:h-40 md:w-40 rounded-full bg-secondary z-10 flex justify-center items-center">
+              <img
+                src={usp1}
+                className="2xl:h-32 2xl:w-32 lg:h-28 lg:w-28 md:h-24 md:w-24 h-14 w-14"
+                alt=""
+              ></img>
+            </div>
 
-            <div className="2xl:h-52 2xl:w-52 lg:h-48 lg:w-48 h-24 w-24 md:h-40 md:w-40 rounded-full bg-secondary z-10"></div>
+            <div className="2xl:h-52 2xl:w-52 lg:h-48 lg:w-48 h-24 w-24 md:h-40 md:w-40 rounded-full bg-secondary z-10 flex justify-center items-center">
+              <img
+                src={usp2}
+                className="2xl:h-32 2xl:w-32 lg:h-28 lg:w-28 md:h-24 md:w-24 h-14 w-14"
+                alt=""
+              ></img>
+            </div>
           </div>
           <div className="flex md:flex-row flex-col space-y-5 md:space-y-0  2xl:space-x-5 lg:space-x-6  md:space-x-5">
-            <div className="2xl:h-52 2xl:w-52 lg:h-48 lg:w-48 h-24 w-24 md:h-40 md:w-40 rounded-full bg-secondary z-10"></div>
-            <div className="2xl:h-52 2xl:w-52 lg:h-48 lg:w-48 h-24 w-24 md:h-40 md:w-40 rounded-full bg-secondary z-10"></div>
+            <div className="2xl:h-52 2xl:w-52 lg:h-48 lg:w-48 h-24 w-24 md:h-40 md:w-40 rounded-full bg-secondary z-10 flex justify-center items-center">
+              <img
+                src={usp3}
+                className="2xl:h-32 2xl:w-32 lg:h-28 lg:w-28 md:h-24 md:w-24 h-14 w-14"
+                alt=""
+              ></img>
+            </div>
+            <div className="2xl:h-52 2xl:w-52 lg:h-48 lg:w-48 h-24 w-24 md:h-40 md:w-40 rounded-full bg-secondary z-10 flex justify-center items-center">
+              <img
+                src={usp4}
+                className="2xl:h-32 2xl:w-32 lg:h-28 lg:w-28 md:h-24 md:w-24 h-14 w-14"
+                alt=""
+              ></img>
+            </div>
           </div>
         </div>
-        <div className="2xl:w-full w-screen bg-usp h-[743px] 2xl:-mt-28 -mt-40 md:-mt-20 flex flex-col  space-y-24 items-center px-2 2xl:px-0">
-          <div className="text-white 2xl:text-4xl text-3xl md:mt-40 mt-52">
+        <div className="2xl:w-full w-screen bg-usp 2xl:h-[743px] h-[496px] 2xl:-mt-28 -mt-40 md:-mt-20 flex flex-col  space-y-24 items-center px-2 2xl:px-0">
+          <div className="text-white 2xl:text-4xl text-3xl md:mt-40 mt-48">
             Industries we cater to
           </div>
         </div>
       </div>
-      <div className="flex w-full justify-center md:-mt-96 -mt-64">
-        <div className="grid md:gap-5 md:gap-y-20 gap-y-20 gap-0 grid-cols-3 place-items-center md:w-max w-full h-max">
+      <div className="flex w-full justify-center md:-mt-96 -mt-52">
+        <div className="grid md:gap-5 md:gap-y-20 gap-y-10 gap-0 grid-cols-3 place-items-center md:w-max w-full h-max">
           <div className="2xl:w-56 2xl:h-56 xl:w-52 xl:h-52 lg:h-48 lg:w-48 h-28 w-28 md:h-44 md:w-44 bg-white flex flex-col items-center rounded-md">
             <div className=" bg-primaryLight 2xl:h-32 2xl:w-32 xl:h-28 xl:w-28 lg:h-24 lg:w-24 md:h-20 md:w-20 h-14 w-14 rounded-full 2xl:-mt-14 xl:-mt-11 lg:-mt-9 md:-mt-8 -mt-6 flex justify-center items-center">
               <img
